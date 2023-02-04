@@ -1,0 +1,7 @@
+{
+  "name": "@iso-cockpit/common/types",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "types": "index.d.ts",
+  "main": "index.ts"
+}

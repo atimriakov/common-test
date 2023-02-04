@@ -1,0 +1,11 @@
+src
+coverage
+!dist/src
+dist/src/types
+azure-pipelines.yml
+azure-pipelines*
+babel.config.json
+tsconfig.json
+webpack.config.js
+jest.config.js
+.idea
