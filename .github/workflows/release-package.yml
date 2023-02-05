@@ -13,7 +13,15 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm test
+      - name: NPM Install YARN
+        run: |
+            npm install --global yarn
+      - name: YARN Install
+        run: |
+            yarn install --frozen-lockfile
+      - name: YARN Build
+        run: |
+            yarn build:prod -- --env ENVIRONMENT=development
 
   publish-gpr:
     needs: build
