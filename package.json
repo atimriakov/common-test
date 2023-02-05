@@ -2,9 +2,9 @@
   "name": "@test-pkg/common",
   "version": "0.0.1",
   "description": "Common react library for PFM App",
-  "main": "dist/iso-cockpit-common.js",
-  "module": "dist/esm/iso-cockpit-common.js",
-  "typings": "dist/esm/iso-cockpit-common.d.ts",
+  "main": "dist/test-pkg-common.js",
+  "module": "dist/esm/test-pkg-common.js",
+  "typings": "dist/esm/test-pkg-common.d.ts",
   "repository": "https://githib.com/",
   "author": "",
   "license": "",
@@ -82,8 +82,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "5.3.4"
-},
-"publishConfig": {
-   "@test-pkg:registry": "https://npm.pkg.github.com"
- }
+}
 }
