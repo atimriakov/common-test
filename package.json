@@ -1,6 +1,6 @@
 {
   "name": "@atimriakov/common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common react library for PFM App",
   "main": "dist/atimriakov-common.js",
   "module": "dist/esm/atimriakov-common.js",
