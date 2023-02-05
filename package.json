@@ -1,10 +1,10 @@
 {
-  "name": "@test-pkg/common",
+  "name": "@atimriakov/common",
   "version": "0.0.1",
   "description": "Common react library for PFM App",
-  "main": "dist/test-pkg-common.js",
-  "module": "dist/esm/test-pkg-common.js",
-  "typings": "dist/esm/test-pkg-common.d.ts",
+  "main": "dist/atimriakov-common.js",
+  "module": "dist/esm/atimriakov-common.js",
+  "typings": "dist/esm/atimriakov-common.d.ts",
   "repository": "https://githib.com/",
   "author": "",
   "license": "",
@@ -84,6 +84,6 @@
     "react-router-dom": "5.3.4"
 },
 "publishConfig": {
-   "@test-pkg:registry": "https://npm.pkg.github.com"
+   "@atimriakov:registry": "https://npm.pkg.github.com"
  }
 }
