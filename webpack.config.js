@@ -3,7 +3,7 @@ const singleSpaDefaults = require('webpack-config-single-spa-react-ts');
 const packageJson = require('./package.json');
 
 module.exports = (webpackConfigEnv, argv) => {
-    const [orgName, projectName] = packageJson.name.substring(1).split('/');
+  const [orgName, projectName] = packageJson.name.substring(1).split('/');
   const defaultConfig = singleSpaDefaults({
     orgName,
     projectName,
@@ -13,11 +13,12 @@ module.exports = (webpackConfigEnv, argv) => {
 
   // if(!webpackConfigEnv.standalone) {
   //   // defaultConfig.externals.push(/@material-ui\/core\/.*/);
-  //   defaultConfig.externals.push('@okta/okta-auth-js');
-  //   defaultConfig.externals.push('@okta/okta-react');
+     defaultConfig.externals.push('@okta/okta-auth-js');
+     defaultConfig.externals.push('@okta/okta-react');
   //
-  //   defaultConfig.externals.push('react-router');
-  //   defaultConfig.externals.push('react-router-dom');
+     defaultConfig.externals.push('react');
+     defaultConfig.externals.push('react-router');
+     defaultConfig.externals.push('react-router-dom');
   // }
 
   return merge(defaultConfig, {
